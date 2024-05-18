@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-const page = () => {
+const Page = () => {
   const [inputVal, setInputVal] = useState("");
   const [radioVal, setRadioVal] = useState("");
 
@@ -33,4 +33,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
